@@ -3,7 +3,7 @@ import java.util.Arrays;
 
 public class PairSum {
 	// O(n) runtime, O(n) space
-	public static int[] getPairHash(int[] nums, int sum) {
+	public static int[] getPairHash(int[] nums, int sum) {	// find pair of nums that sum to sum
 		HashSet<Integer> seen = new HashSet<>();
 
 		for (int i : nums) {
