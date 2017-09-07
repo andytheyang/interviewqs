@@ -1,3 +1,9 @@
+/*
+leetcode EASY: https://leetcode.com/problems/longest-common-prefix/description/
+O(mn) time where m = # of strings, n = length of longest prefix
+O(1) space
+Check one character at a time
+*/
 public class LongestCommonPrefix {
 	public static String longestCommonPrefix(String[] strs) {
         if (strs.length == 0)
