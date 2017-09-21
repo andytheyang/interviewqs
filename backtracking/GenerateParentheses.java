@@ -1,3 +1,12 @@
+/*
+Leetcode MEDIUM: https://leetcode.com/problems/generate-parentheses/description/
+Generate n pairs of valid parentheses.
+
+This backtracking solution takes advantage of two rules:
+1. There can only be as many open parentheses as n
+2. There can only be as many closed parentheses as the number of open parentheses to the left
+*/
+
 import java.util.Queue;
 import java.util.LinkedList;
 import java.util.List;
