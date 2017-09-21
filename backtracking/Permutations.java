@@ -5,7 +5,7 @@ import java.util.ArrayList;
 Leetcode MEDIUM: https://leetcode.com/problems/permutations/description/
 Given a set of distinct numbers, return all permutations.
 
-This approach is O(n^3), but can be easily optimized to O(n^2) with a proper
+This approach is O(n*n!), but can be easily optimized to O(n!) with a proper
 lookup hashtable instead of using current.contains() in order to check if 
 elements were previously added.
 */
