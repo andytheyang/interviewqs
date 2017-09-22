@@ -5,7 +5,7 @@ class ListNode {
     ListNode(int x) { val = x; }
 }
 
-public class merge {
+public class Merge2SortedLists {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         ListNode ret = new ListNode(0);      // temporary listnode for first element
         ListNode cur = ret;
